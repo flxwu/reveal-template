@@ -3,11 +3,14 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
-		<title>reveal.js</title>
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
+		<link rel="shortcut icon" href="http://flxwu.com/favicon.png" type="image/x-icon">
+		<title>Presentation Title</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/template.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +27,37 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown>
+					<textarea data-template>
+						## <span class="head">Crash Course</span>
+						![Topic Banner]()
+	
+						Subtitle
+					</textarea>
+				</section>
+				<section data-markdown data-notes="^Note:">
+					<textarea data-template>
+						## <span class="title">Title Question?</span>
+						<div class="main">
+							<i style="font-size: 7rem;" class="fab fa-facebook-square fragment fade-right"></i>
+							<i style="font-size: 7rem;" class="fab fa-instagram fragment fade-right"></i>
+							<i style="font-size: 7rem;" class="fab fa-whatsapp fragment fade-right"></i>
+							<i style="font-size: 7rem;" class="fab fa-dropbox fragment fade-right"></i>
+							<i style="font-size: 7rem;" class="fab fa-meetup fragment fade-right"></i>
+						</div>
+						Note: 
+							These are Notes.
+					</textarea>
+				</section>
+				<section data-markdown data-notes="^Note:">
+					<textarea data-template>
+						## <span class="title">Title Question?</span>
+						- List
+	
+						Note: 
+							These are Notes.
+					</textarea>
+				</section>
 			</div>
 		</div>
 
